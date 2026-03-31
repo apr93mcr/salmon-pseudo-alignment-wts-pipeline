@@ -1,0 +1,4 @@
+output_dir: results/
+sample_sheet: samples/samples.example.csv
+salmon_index: /path/to/salmon_index
+gene_quant_script: helper_scripts/gene_quant_generation.R
