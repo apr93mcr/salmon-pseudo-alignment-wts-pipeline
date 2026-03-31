@@ -85,5 +85,4 @@ Please verify that this matches your library preparation protocol before running
 
 
 ##Runing the pipeline: 
-snakemake --cores 20 --use-conda --configfile config/config.yaml
-
+snakemake -s Scripts/Snakefile --configfile Scripts/stranded_config.yaml --jobs 10 --cores 80 --use-conda --conda-frontend conda
